@@ -19,19 +19,12 @@ Concept mode), and the necessary installer folder will be provided by your vendo
 
 2) Place the following files and folders into your C:\Temp directory:
 
-	- PSEXEC.EXE utility, can be downloaded from here and place in your C:\Temp folder for this
-	Script: https://technet.microsoft.com/en-us/sysinternals/bb896649
-	After Downloading, place PSEXEC.exe in your C:\Temp folder.
-	
-	- Create a new .txt file and name it "hostnames.txt". Then place in your C:\Temp folder, and
-	add the hostnames (or IP addresses) of the remote machines.
-	
-	- Verify that there is 1 hostname or IP address per line and leave no trailing spaces or empty lines at the end.
-	
-	- CarbonBlackSensor Installer folder. **(Ask your vendor to provide you with the installer folder)** (See **NOTE**)
-	This folder MUST have at the very minimum, Settings.INI file and the Carbon Black Executable.
-	
-	- BulkInstall-CarbonBlackSensor.ps1 (This script).
+- PSEXEC.EXE utility, can be downloaded from here and place in your C:\Temp folder for this Script: https://technet.microsoft.com/en-us/sysinternals/bb896649
+- After Downloading, place PSEXEC.exe in your C:\Temp folder.
+- Create a new .txt file and name it "hostnames.txt". Then place in your C:\Temp folder, and add the hostnames (or IP addresses) of the remote machines on each new line.
+- Verify that there is 1 hostname or IP address per line and leave no trailing spaces or empty lines at the end.
+- CarbonBlackSensor Installer folder. **(Ask your vendor to provide you with the installer folder)** (See **NOTE**) This folder MUST have at the very minimum, Settings.INI file and the Carbon Black Executable.
+- BulkInstall-CarbonBlackSensor.ps1 (This script).
 
 **Note**: Carbon Black Sensor folder is proprietary. See Requirements above.
 
@@ -49,7 +42,7 @@ Concept mode), and the necessary installer folder will be provided by your vendo
 
 6) Once the PowerShell console window is opened with elevated privilege, navigate to:
 
-	C:\Temp (Type cd C:\Temp and press Enter)
+- C:\Temp (Type cd C:\Temp and press Enter)
 	
 7) Type "DIR" and press Enter to see the list of files in your C:\Temp directory.
 
