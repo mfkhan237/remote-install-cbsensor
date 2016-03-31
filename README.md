@@ -8,14 +8,18 @@ Thanks to Mark Russinovich for making the Sysinternals suite and PSEXEC.EXE whic
 Minimum Requirements
 
 -> Windows Environment, (minimum Windows 7 and PowerShell 2.0 or higher )
+
 -> Workstation Administrator privileges to run this script
+
 -> Basics of launching a script or program using PowerShell or command line
+
 -> Your enterprise must be using CarbonBlackSensor, or wishes to use it (and possibly in Proof Of
 Concept mode), and the necessary installer folder will be provided by your vendor (Carbon Black).
 
 Setup Instructions
 
 1) Create a C:\Temp directory if it  doesn't already exist
+
 2) Place the following files and folders into your C:\Temp directory:
 
 	-> PSEXEC.EXE utility, can be downloaded from here and place in your C:\Temp folder for this
