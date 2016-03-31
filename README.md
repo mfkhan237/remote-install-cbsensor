@@ -1,29 +1,29 @@
 Introduction
 
 This is a Powershell script specifically made to install the Carbon Black Sensor on remote machines
-silently, in a bulk fasion. The reason for this script arises if there are issues with pushing the
-sensor installation through GPO and/or SCCM. This script, along with the PSEXEC utility made by
+silently, in a bulk fasion. This script can be used if there are issues with pushing the sensor
+installation through GPO and/or SCCM. This script, along with the PSEXEC utility made by
 Mark Russinovich and can be found at:
 https://technet.microsoft.com/en-us/sysinternals/bb896649 
 
 Thanks to Mark Russinovich for making the Sysinternals suite and PSEXEC.EXE which makes this script
 and the ability to silently install the sensor without much trouble, possible.
 
-Pre-Requisites/Dependencies
+Minimum Requirements
 
-1) Must be in a Windows Environment, machines must have at the minimum Windows 7 and PowerShell 2.0
+-> Must be in a Windows Environment, machines must have at the minimum Windows 7 and PowerShell 2.0
 (Most machines with Windows 7 are at default PowerShell Version 2.0)
 
-2) Must have Workstation Adminstrator priveledges to run this script
+-> Must have Workstation Adminstrator priveledges to run this script
 
-3) Basics of launching a script or program using PowerShell or command line.
+-> Basics of launching a script or program using PowerShell or command line.
 
-4) Your Enterprise must be using CarbonBlackSensor, or wishes to use it (and maybe in POC mode),
+-> Your Enterprise must be using CarbonBlackSensor, or wishes to use it (and maybe in POC mode),
 and the necessary installer folder will be provided by your vendor (CarbonBlack).
 
 Setup Instructions
 
-1) Create a C:\Temp director if it already doesn't existPSEXEC
+1) Create a C:\Temp directory if it already doesn't exist
 
 2) Place the following files and folders into your C:\Temp directory:
 
