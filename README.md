@@ -7,20 +7,10 @@ Thanks to Mark Russinovich for making the Sysinternals suite and PSEXEC.EXE whic
 
 #Minimum Requirements
 
-<<<<<<< HEAD
 - Windows Environment, (minimum Windows 7 and PowerShell 2.0 or higher )
 - Workstation Administrator privileges to run this script
 - Basics of launching a script or program using PowerShell or command line
 - Your enterprise must be using CarbonBlackSensor, or wishes to use it (and possibly in Proof Of
-=======
--> Windows Environment, (minimum Windows 7 and PowerShell 2.0 or higher )
-
--> Workstation Administrator privileges to run this script
-
--> Basics of launching a script or program using PowerShell or command line
-
--> Your enterprise must be using CarbonBlackSensor, or wishes to use it (and possibly in Proof Of
->>>>>>> origin/master
 Concept mode), and the necessary installer folder will be provided by your vendor (Carbon Black).
 
 #Setup Instructions
@@ -29,19 +19,19 @@ Concept mode), and the necessary installer folder will be provided by your vendo
 
 2) Place the following files and folders into your C:\Temp directory:
 
-	-> PSEXEC.EXE utility, can be downloaded from here and place in your C:\Temp folder for this
+	- PSEXEC.EXE utility, can be downloaded from here and place in your C:\Temp folder for this
 	Script: https://technet.microsoft.com/en-us/sysinternals/bb896649
 	After Downloading, place PSEXEC.exe in your C:\Temp folder.
 	
-	-> Create a new .txt file and name it "hostnames.txt". Then place in your C:\Temp folder, and
+	- Create a new .txt file and name it "hostnames.txt". Then place in your C:\Temp folder, and
 	add the hostnames (or IP addresses) of the remote machines.
 	
-	-> Verify that there is 1 hostname or IP address per line and leave no trailing spaces or empty lines at the end.
+	- Verify that there is 1 hostname or IP address per line and leave no trailing spaces or empty lines at the end.
 	
-	-> CarbonBlackSensor Installer folder. **(Ask your vendor to provide you with the installer folder)**
+	- CarbonBlackSensor Installer folder. **(Ask your vendor to provide you with the installer folder)** (See **NOTE**)
 	This folder MUST have at the very minimum, Settings.INI file and the Carbon Black Executable.
 	
-	-> BulkInstall-CarbonBlackSensor.ps1 (This script).
+	- BulkInstall-CarbonBlackSensor.ps1 (This script).
 
 **Note**: Carbon Black Sensor folder is proprietary. See Requirements above.
 
