@@ -68,7 +68,7 @@
 
     Author: Fahad Khan
     Date Updated: 3/30/2016
-    Contact: mfkhan237@gmail.com
+    Contact me for questions/updates through my github account.
 #>
 
 [CmdletBinding()]
