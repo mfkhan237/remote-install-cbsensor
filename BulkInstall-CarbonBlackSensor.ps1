@@ -151,7 +151,7 @@ foreach ($Client in $ComputerList) {
 
                              # Running the installer if the CB installer folder is already located on the C:\Temp
                              #  maybe unnecessary here, but useful for any reason the install fails the first time
-                           & psexec.exe -accepteula "\\$Client" "C:\temp\CarbonBlackClientSetup.exe" /S
+                           & .\psexec.exe -accepteula "\\$Client" "C:\temp\CarbonBlackClientSetup.exe" /S
                            $PSExecLastExitCode = $LASTEXITCODE
                            Write-Output "Last Exit Code of PSEXEC on Client $Client, $PSExecLastExitCode"
 
@@ -164,7 +164,7 @@ foreach ($Client in $ComputerList) {
                            
                              # run the PSEXEC.EXE executable and then the command to run the CarbonBlack Sensor using
                              #  the silent install switch for CB Sensor
-                           & psexec.exe -accepteula "\\$Client" "C:\Temp\CarbonBlackSensor\CarbonBlackClientSetup.exe" /S
+                           & .\psexec.exe -accepteula "\\$Client" "C:\Temp\CarbonBlackSensor\CarbonBlackClientSetup.exe" /S
                            
                            $PSExecLastExitCode = $LASTEXITCODE
                            
